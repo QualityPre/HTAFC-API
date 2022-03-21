@@ -1,0 +1,18 @@
+{
+  "name": "htafc-api-project",
+  "version": "0.0.1",
+  "description": "Huddersfield Town API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "huddersfield",
+    "football"
+  ],
+  "author": "QualityPre",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
