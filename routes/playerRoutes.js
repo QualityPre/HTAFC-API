@@ -1,18 +1,18 @@
-const express = require('express')
+const express = require('express');
 
-const router = express.Router()
+const router = express.Router();
 
-const playerController = require('../controllers/playerController')
+const playerController = require('../controllers/playerController');
 
 router
   .route('/')
   .get(playerController.getAllPlayers)
-  .post(playerController.createPlayer)
+  .post(playerController.createPlayer);
 
 router
   .route('/:id')
   .get(playerController.getPlayer)
   .patch(playerController.updatePlayer)
-  .delete(playerController.deletePlayer)
+  .delete(playerController.deletePlayer);
 
-module.exports = router
+module.exports = router;

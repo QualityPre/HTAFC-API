@@ -1,4 +1,4 @@
-const mongoose = require('mongoose')
+const mongoose = require('mongoose');
 
 const playerSchema = new mongoose.Schema({
   name: {
@@ -26,7 +26,7 @@ const playerSchema = new mongoose.Schema({
     type: Date,
     default: Date.now(),
   },
-})
-const Player = mongoose.model('Player', playerSchema)
+});
+const Player = mongoose.model('Player', playerSchema);
 
-module.exports = Player
+module.exports = Player;
